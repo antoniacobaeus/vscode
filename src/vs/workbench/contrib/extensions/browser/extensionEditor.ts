@@ -767,9 +767,8 @@ export class ExtensionEditor extends EditorPane {
 				<style nonce="${nonce}">
 					${DEFAULT_MARKDOWN_STYLES}
 
-					/* prevent scroll-to-top button from blocking the body text */
 					body {
-						padding-bottom: 75px;
+						padding-bottom: 57px; /* 25 + 32 */
 					}
 
 					#scroll-to-top {
